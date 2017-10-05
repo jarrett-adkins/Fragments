@@ -1,0 +1,26 @@
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.admin.fragments.YellowFragment"
+    android:background="@color/colorYellow">
+
+    <EditText
+        android:id="@+id/etData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSendData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Data"/>
+
+    <TextView
+        android:id="@+id/ytvText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

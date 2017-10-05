@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.example.admin.fragments.MainActivity">
+
+    <fragment
+        android:id="@+id/fRed"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:name="com.example.admin.fragments.RedFragment" />
+
+    <Button
+        android:id="@+id/btnAddFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Blue Fragment"
+        android:onClick="addFragment"/>
+
+    <FrameLayout
+        android:id="@+id/flLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/frag_height"/>
+
+    <Button
+        android:id="@+id/btnAddGreenFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Green Fragment"
+        android:onClick="addFragment"/>
+
+    <Button
+        android:id="@+id/btnAddYellowFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Yellow Fragment"
+        android:onClick="addFragment"/>
+
+    <FrameLayout
+        android:id="@+id/flLayoutYellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnAddTextToYellowFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Text To Yellow Fragment"
+        android:onClick="addFragment"/>
+
+    <Button
+        android:id="@+id/btnRemoveBlueFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove Blue Fragment"
+        android:onClick="addFragment"/>
+
+</LinearLayout>
